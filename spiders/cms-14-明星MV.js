@@ -1,1 +1,122 @@
-Ly8gQG5hbWUg8J+OtuaYjuaYn+KUg01WCi8vIEB2ZXJzaW9uIDEuMC4wCi8vIEBkb3dubG9hZFVSTCBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vd2VuamllNjU0NjU0OTU0LWFmay9vbW5pYm94LXNpdGVzL21haW4vc3BpZGVycy9jbXMtMTQt5piO5pifTVYuanMKLy8gQGRlcGVuZGVuY2llcyBheGlvcwoKY29uc3QgT21uaUJveCA9IHJlcXVpcmUoIm9tbmlib3hfc2RrIik7CmNvbnN0IHJ1bm5lciA9IHJlcXVpcmUoInNwaWRlcl9ydW5uZXIiKTsKCm1vZHVsZS5leHBvcnRzID0geyBob21lLCBjYXRlZ29yeSwgZGV0YWlsLCBzZWFyY2gsIHBsYXkgfTsKcnVubmVyLnJ1bihtb2R1bGUuZXhwb3J0cyk7Cgpjb25zdCBTSVRFX0FQSSA9ICJodHRwczovL212LndvZ2cubGluay9tdi92b2QiOwoKYXN5bmMgZnVuY3Rpb24gcmVxdWVzdEFwaShwYXJhbXMgPSB7fSkgewogIGNvbnN0IHFzID0gbmV3IFVSTFNlYXJjaFBhcmFtcygKICAgIE9iamVjdC5mcm9tRW50cmllcyhPYmplY3QuZW50cmllcyhwYXJhbXMpLmZpbHRlcigoWywgdl0pID0+IHYgIT0gbnVsbCAmJiB2ICE9PSAiIikpCiAgKS50b1N0cmluZygpOwogIGNvbnN0IHNlcCA9IFNJVEVfQVBJLmluY2x1ZGVzKCI/IikgPyAiJiIgOiAiPyI7CiAgY29uc3QgdXJsID0gYCR7U0lURV9BUEl9JHtzZXB9JHtxc31gOwogIGNvbnN0IHJlcyA9IGF3YWl0IE9tbmlCb3gucmVxdWVzdCh1cmwsIHsKICAgIG1ldGhvZDogIkdFVCIsCiAgICBoZWFkZXJzOiB7ICJVc2VyLUFnZW50IjogIk1vemlsbGEvNS4wIiB9LAogIH0pOwogIGlmIChyZXMuc3RhdHVzQ29kZSAhPT0gMjAwKSB0aHJvdyBuZXcgRXJyb3IoYEhUVFAgJHtyZXMuc3RhdHVzQ29kZX1gKTsKICByZXR1cm4gSlNPTi5wYXJzZShyZXMuYm9keSB8fCAie30iKTsKfQoKZnVuY3Rpb24gbWFwVm9kKHYpIHsKICByZXR1cm4gewogICAgdm9kX2lkOiBTdHJpbmcodi52b2RfaWQgfHwgIiIpLAogICAgdm9kX25hbWU6IFN0cmluZyh2LnZvZF9uYW1lIHx8ICIiKSwKICAgIHZvZF9waWM6IFN0cmluZyh2LnZvZF9waWMgfHwgIiIpLAogICAgdHlwZV9pZDogU3RyaW5nKHYudHlwZV9pZCB8fCAiIiksCiAgICB0eXBlX25hbWU6IFN0cmluZyh2LnR5cGVfbmFtZSB8fCAiIiksCiAgICB2b2RfcmVtYXJrczogU3RyaW5nKHYudm9kX3JlbWFya3MgfHwgIiIpLAogICAgdm9kX3llYXI6IFN0cmluZyh2LnZvZF95ZWFyIHx8ICIiKSwKICB9Owp9Cgphc3luYyBmdW5jdGlvbiBob21lKHBhcmFtcywgY29udGV4dCkgewogIHRyeSB7CiAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVxdWVzdEFwaSh7IGFjOiAibGlzdCIsIHBnOiAiMSIgfSk7CiAgICByZXR1cm4gewogICAgICBjbGFzczogKGRhdGEuY2xhc3MgfHwgW10pLm1hcChjID0+ICh7IHR5cGVfaWQ6IFN0cmluZyhjLnR5cGVfaWQpLCB0eXBlX25hbWU6IFN0cmluZyhjLnR5cGVfbmFtZSkgfSkpLAogICAgICBsaXN0OiAoZGF0YS5saXN0IHx8IFtdKS5tYXAobWFwVm9kKSwKICAgIH07CiAgfSBjYXRjaCAoZSkgewogICAgcmV0dXJuIHsgY2xhc3M6IFtdLCBsaXN0OiBbXSB9OwogIH0KfQoKYXN5bmMgZnVuY3Rpb24gY2F0ZWdvcnkocGFyYW1zLCBjb250ZXh0KSB7CiAgdHJ5IHsKICAgIGNvbnN0IHsgY2F0ZWdvcnlJZCA9ICIxIiwgcGFnZSA9IDEgfSA9IHBhcmFtczsKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXF1ZXN0QXBpKHsgYWM6ICJ2aWRlb2xpc3QiLCB0OiBjYXRlZ29yeUlkLCBwZzogU3RyaW5nKHBhZ2UpIH0pOwogICAgcmV0dXJuIHsKICAgICAgcGFnZTogTnVtYmVyKGRhdGEucGFnZSkgfHwgcGFnZSwKICAgICAgcGFnZWNvdW50OiBOdW1iZXIoZGF0YS5wYWdlY291bnQpIHx8IDAsCiAgICAgIHRvdGFsOiBOdW1iZXIoZGF0YS50b3RhbCkgfHwgMCwKICAgICAgbGlzdDogKGRhdGEubGlzdCB8fCBbXSkubWFwKG1hcFZvZCksCiAgICB9OwogIH0gY2F0Y2ggKGUpIHsKICAgIHJldHVybiB7IHBhZ2U6IDEsIHBhZ2Vjb3VudDogMCwgdG90YWw6IDAsIGxpc3Q6IFtdIH07CiAgfQp9Cgphc3luYyBmdW5jdGlvbiBkZXRhaWwocGFyYW1zLCBjb250ZXh0KSB7CiAgdHJ5IHsKICAgIGNvbnN0IHsgdmlkZW9JZCB9ID0gcGFyYW1zOwogICAgaWYgKCF2aWRlb0lkKSByZXR1cm4geyBsaXN0OiBbXSB9OwogICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlcXVlc3RBcGkoeyBhYzogImRldGFpbCIsIGlkczogdmlkZW9JZCB9KTsKICAgIGNvbnN0IGxpc3QgPSAoZGF0YS5saXN0IHx8IFtdKS5tYXAodiA9PiB7CiAgICAgIGNvbnN0IGVwaXNvZGVzID0gW107CiAgICAgIGlmICh2LnZvZF9wbGF5X3VybCkgewogICAgICAgIHYudm9kX3BsYXlfdXJsLnNwbGl0KCIjIikuZm9yRWFjaCgoc2VnLCBpKSA9PiB7CiAgICAgICAgICBjb25zdCBwYXJ0cyA9IHNlZy50cmltKCkuc3BsaXQoIiQiKTsKICAgICAgICAgIGVwaXNvZGVzLnB1c2gocGFydHMubGVuZ3RoID49IDIKICAgICAgICAgICAgPyB7IG5hbWU6IHBhcnRzWzBdLnRyaW0oKSwgcGxheUlkOiBwYXJ0cy5zbGljZSgxKS5qb2luKCIkIikudHJpbSgpIH0KICAgICAgICAgICAgOiB7IG5hbWU6IGDnrKwke2kgKyAxfembhmAsIHBsYXlJZDogcGFydHNbMF0udHJpbSgpIH0pOwogICAgICAgIH0pOwogICAgICB9CiAgICAgIHJldHVybiB7CiAgICAgICAgLi4ubWFwVm9kKHYpLAogICAgICAgIHZvZF9jb250ZW50OiBTdHJpbmcodi52b2RfY29udGVudCB8fCAiIiksCiAgICAgICAgdm9kX2FjdG9yOiBTdHJpbmcodi52b2RfYWN0b3IgfHwgIiIpLAogICAgICAgIHZvZF9kaXJlY3RvcjogU3RyaW5nKHYudm9kX2RpcmVjdG9yIHx8ICIiKSwKICAgICAgICB2b2RfcGxheV9zb3VyY2VzOiBlcGlzb2Rlcy5sZW5ndGggPiAwID8gW3sgbmFtZTogIue6v+i3rzEiLCBlcGlzb2RlcyB9XSA6IHVuZGVmaW5lZCwKICAgICAgfTsKICAgIH0pOwogICAgcmV0dXJuIHsgbGlzdCB9OwogIH0gY2F0Y2ggKGUpIHsKICAgIHJldHVybiB7IGxpc3Q6IFtdIH07CiAgfQp9Cgphc3luYyBmdW5jdGlvbiBzZWFyY2gocGFyYW1zLCBjb250ZXh0KSB7CiAgdHJ5IHsKICAgIGNvbnN0IGtleXdvcmQgPSBwYXJhbXMua2V5d29yZCB8fCBwYXJhbXMud2QgfHwgIiI7CiAgICBjb25zdCBwYWdlID0gcGFyYW1zLnBhZ2UgfHwgMTsKICAgIGlmICgha2V5d29yZCkgcmV0dXJuIHsgcGFnZTogMSwgcGFnZWNvdW50OiAwLCB0b3RhbDogMCwgbGlzdDogW10gfTsKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXF1ZXN0QXBpKHsgYWM6ICJsaXN0Iiwgd2Q6IGtleXdvcmQsIHBnOiBTdHJpbmcocGFnZSkgfSk7CiAgICByZXR1cm4gewogICAgICBwYWdlOiBOdW1iZXIoZGF0YS5wYWdlKSB8fCBwYWdlLAogICAgICBwYWdlY291bnQ6IE51bWJlcihkYXRhLnBhZ2Vjb3VudCkgfHwgMCwKICAgICAgdG90YWw6IE51bWJlcihkYXRhLnRvdGFsKSB8fCAwLAogICAgICBsaXN0OiAoZGF0YS5saXN0IHx8IFtdKS5tYXAobWFwVm9kKSwKICAgIH07CiAgfSBjYXRjaCAoZSkgewogICAgcmV0dXJuIHsgcGFnZTogMSwgcGFnZWNvdW50OiAwLCB0b3RhbDogMCwgbGlzdDogW10gfTsKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIHBsYXkocGFyYW1zLCBjb250ZXh0KSB7CiAgdHJ5IHsKICAgIGNvbnN0IHsgcGxheUlkLCBmbGFnID0gInBsYXkiIH0gPSBwYXJhbXM7CiAgICBpZiAoIXBsYXlJZCkgdGhyb3cgbmV3IEVycm9yKCJwbGF5SWQg5Li656m6Iik7CiAgICBjb25zdCBwYXJzZSA9IC9cLihtM3U4fG1wNCkoXD98JCkvaS50ZXN0KHBsYXlJZCkgPyAwIDogMTsKICAgIHJldHVybiB7IHVybHM6IFt7IG5hbWU6ICLmkq3mlL4iLCB1cmw6IHBsYXlJZCB9XSwgZmxhZywgaGVhZGVyOiB7fSwgcGFyc2UgfTsKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4geyB1cmw6ICIiLCBmbGFnOiBwYXJhbXMuZmxhZyB8fCAicGxheSIsIGhlYWRlcjoge30gfTsKICB9Cn0K
+// @name 🎶明星┃MV
+// @version 1.0.0
+// @downloadURL https://raw.githubusercontent.com/wenjie654654954-afk/omnibox-sites/main/spiders/cms-14-明星MV.js
+// @dependencies axios
+
+const OmniBox = require("omnibox_sdk");
+const runner = require("spider_runner");
+
+module.exports = { home, category, detail, search, play };
+runner.run(module.exports);
+
+const SITE_API = "https://mv.wogg.link/mv/vod";
+
+async function requestApi(params = {}) {
+  const qs = new URLSearchParams(
+    Object.fromEntries(Object.entries(params).filter(([, v]) => v != null && v !== ""))
+  ).toString();
+  const sep = SITE_API.includes("?") ? "&" : "?";
+  const url = `${SITE_API}${sep}${qs}`;
+  const res = await OmniBox.request(url, {
+    method: "GET",
+    headers: { "User-Agent": "Mozilla/5.0" },
+  });
+  if (res.statusCode !== 200) throw new Error(`HTTP ${res.statusCode}`);
+  return JSON.parse(res.body || "{}");
+}
+
+function mapVod(v) {
+  return {
+    vod_id: String(v.vod_id || ""),
+    vod_name: String(v.vod_name || ""),
+    vod_pic: String(v.vod_pic || ""),
+    type_id: String(v.type_id || ""),
+    type_name: String(v.type_name || ""),
+    vod_remarks: String(v.vod_remarks || ""),
+    vod_year: String(v.vod_year || ""),
+  };
+}
+
+async function home(params, context) {
+  try {
+    const data = await requestApi({ ac: "list", pg: "1" });
+    return {
+      class: (data.class || []).map(c => ({ type_id: String(c.type_id), type_name: String(c.type_name) })),
+      list: (data.list || []).map(mapVod),
+    };
+  } catch (e) {
+    return { class: [], list: [] };
+  }
+}
+
+async function category(params, context) {
+  try {
+    const { categoryId = "1", page = 1 } = params;
+    const data = await requestApi({ ac: "videolist", t: categoryId, pg: String(page) });
+    return {
+      page: Number(data.page) || page,
+      pagecount: Number(data.pagecount) || 0,
+      total: Number(data.total) || 0,
+      list: (data.list || []).map(mapVod),
+    };
+  } catch (e) {
+    return { page: 1, pagecount: 0, total: 0, list: [] };
+  }
+}
+
+async function detail(params, context) {
+  try {
+    const { videoId } = params;
+    if (!videoId) return { list: [] };
+    const data = await requestApi({ ac: "detail", ids: videoId });
+    const list = (data.list || []).map(v => {
+      const episodes = [];
+      if (v.vod_play_url) {
+        v.vod_play_url.split("#").forEach((seg, i) => {
+          const parts = seg.trim().split("$");
+          episodes.push(parts.length >= 2
+            ? { name: parts[0].trim(), playId: parts.slice(1).join("$").trim() }
+            : { name: `第${i + 1}集`, playId: parts[0].trim() });
+        });
+      }
+      return {
+        ...mapVod(v),
+        vod_content: String(v.vod_content || ""),
+        vod_actor: String(v.vod_actor || ""),
+        vod_director: String(v.vod_director || ""),
+        vod_play_sources: episodes.length > 0 ? [{ name: "线路1", episodes }] : undefined,
+      };
+    });
+    return { list };
+  } catch (e) {
+    return { list: [] };
+  }
+}
+
+async function search(params, context) {
+  try {
+    const keyword = params.keyword || params.wd || "";
+    const page = params.page || 1;
+    if (!keyword) return { page: 1, pagecount: 0, total: 0, list: [] };
+    const data = await requestApi({ ac: "list", wd: keyword, pg: String(page) });
+    return {
+      page: Number(data.page) || page,
+      pagecount: Number(data.pagecount) || 0,
+      total: Number(data.total) || 0,
+      list: (data.list || []).map(mapVod),
+    };
+  } catch (e) {
+    return { page: 1, pagecount: 0, total: 0, list: [] };
+  }
+}
+
+async function play(params, context) {
+  try {
+    const { playId, flag = "play" } = params;
+    if (!playId) throw new Error("playId 为空");
+    const parse = /\.(m3u8|mp4)(\?|$)/i.test(playId) ? 0 : 1;
+    return { urls: [{ name: "播放", url: playId }], flag, header: {}, parse };
+  } catch (e) {
+    return { url: "", flag: params.flag || "play", header: {} };
+  }
+}
