@@ -1,5 +1,5 @@
 // @name 🐯┃奇虎┃采集
-// @version 1.0.1
+// @version 1.0.2
 // @downloadURL https://raw.githubusercontent.com/wenjie654654954-afk/omnibox-sites/main/spiders/cms-08-奇虎采集.js
 // @dependencies axios
 
@@ -37,12 +37,34 @@ function mapVod(v) {
   };
 }
 
+/**
+ * 列表接口的 vod_pic 经常为空，用一次批量详情把封面补上。
+ */
+async function fillPics(list) {
+  try {
+    const ids = list.map(v => v.vod_id).filter(Boolean);
+    if (!ids.length) return list;
+    const data = await requestApi({ ac: "detail", ids: ids.join(",") });
+    const picMap = {};
+    for (const v of (data.list || [])) {
+      const id = String(v.vod_id || "");
+      if (id && v.vod_pic) picMap[id] = String(v.vod_pic);
+    }
+    for (const v of list) {
+      if (!v.vod_pic && picMap[v.vod_id]) v.vod_pic = picMap[v.vod_id];
+    }
+  } catch (e) { /* 封面补不上就空着，不影响主流程 */ }
+  return list;
+}
+
 async function home(params, context) {
   try {
     const data = await requestApi({ ac: "list", pg: "1" });
+    const list = (data.list || []).map(mapVod);
+    await fillPics(list);
     return {
       class: (data.class || []).map(c => ({ type_id: String(c.type_id), type_name: String(c.type_name) })),
-      list: (data.list || []).map(mapVod),
+      list,
     };
   } catch (e) {
     return { class: [], list: [] };
@@ -53,11 +75,13 @@ async function category(params, context) {
   try {
     const { categoryId = "1", page = 1 } = params;
     const data = await requestApi({ ac: "videolist", t: categoryId, pg: String(page) });
+    const list = (data.list || []).map(mapVod);
+    await fillPics(list);
     return {
       page: Number(data.page) || page,
       pagecount: Number(data.pagecount) || 0,
       total: Number(data.total) || 0,
-      list: (data.list || []).map(mapVod),
+      list,
     };
   } catch (e) {
     return { page: 1, pagecount: 0, total: 0, list: [] };
@@ -99,11 +123,13 @@ async function search(params, context) {
     const page = params.page || 1;
     if (!keyword) return { page: 1, pagecount: 0, total: 0, list: [] };
     const data = await requestApi({ ac: "list", wd: keyword, pg: String(page) });
+    const list = (data.list || []).map(mapVod);
+    await fillPics(list);
     return {
       page: Number(data.page) || page,
       pagecount: Number(data.pagecount) || 0,
       total: Number(data.total) || 0,
-      list: (data.list || []).map(mapVod),
+      list,
     };
   } catch (e) {
     return { page: 1, pagecount: 0, total: 0, list: [] };
