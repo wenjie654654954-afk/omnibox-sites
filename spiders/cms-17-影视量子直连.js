@@ -1,5 +1,5 @@
 // @name 影视 | 量子[直连]
-// @version 1.0.0
+// @version 1.0.1
 // @downloadURL https://raw.githubusercontent.com/wenjie654654954-afk/omnibox-sites/main/spiders/cms-17-影视量子直连.js
 // @dependencies axios
 
@@ -114,8 +114,43 @@ async function play(params, context) {
   try {
     const { playId, flag = "play" } = params;
     if (!playId) throw new Error("playId 为空");
-    const parse = /\.(m3u8|mp4)(\?|$)/i.test(playId) ? 0 : 1;
-    return { urls: [{ name: "播放", url: playId }], flag, header: {}, parse };
+
+    // 1) 已经是直链
+    if (/\.(m3u8|mp4)(\?|$)/i.test(playId)) {
+      return { urls: [{ name: "播放", url: playId }], flag, header: {}, parse: 0 };
+    }
+
+    // 2) share 中转页：抓 HTML 提取真 m3u8
+    if (/^https?:\/\//i.test(playId)) {
+      try {
+        const res = await OmniBox.request(playId, {
+          method: "GET",
+          headers: {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Referer": SITE_API,
+          },
+        });
+        const html = res.body || "";
+        const m = html.match(/var\s+main\s*=\s*["']([^"']+\.m3u8[^"']*)["']/i)
+               || html.match(/["'](?:url|src|videoUrl)["']\s*[:=]\s*["']([^"']+\.m3u8[^"']*)["']/i)
+               || html.match(/(https?:\/\/[^"'\s]+\.m3u8[^"'\s]*)/i)
+               || html.match(/(\/[^"'\s]+\.m3u8[^"'\s]*)/i);
+        if (m) {
+          let realUrl = m[1] || m[0];
+          if (realUrl.startsWith("/")) {
+            try { realUrl = new URL(playId).origin + realUrl; } catch (e) {}
+          }
+          await OmniBox.log("info", `[play] 解析到直链: ${realUrl.slice(0, 80)}`);
+          return { urls: [{ name: "播放", url: realUrl }], flag, header: {}, parse: 0 };
+        }
+        await OmniBox.log("warn", "[play] share 页未提取到 m3u8，走解析");
+      } catch (e) {
+        await OmniBox.log("warn", `[play] share 页抓取失败: ${e.message}，走解析`);
+      }
+    }
+
+    // 3) 兜底：交给解析资源
+    return { urls: [{ name: "播放", url: playId }], flag, header: {}, parse: 1 };
   } catch (e) {
     return { url: "", flag: params.flag || "play", header: {} };
   }
