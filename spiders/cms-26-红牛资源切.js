@@ -1,1 +1,122 @@
-Ly8gQG5hbWUg57qi54mb6LWE5rqQKOWIhykKLy8gQHZlcnNpb24gMS4wLjAKLy8gQGRvd25sb2FkVVJMIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS93ZW5qaWU2NTQ2NTQ5NTQtYWZrL29tbmlib3gtc2l0ZXMvbWFpbi9zcGlkZXJzL2Ntcy0yNi3nuqLniZvotYTmupDliIcuanMKLy8gQGRlcGVuZGVuY2llcyBheGlvcwoKY29uc3QgT21uaUJveCA9IHJlcXVpcmUoIm9tbmlib3hfc2RrIik7CmNvbnN0IHJ1bm5lciA9IHJlcXVpcmUoInNwaWRlcl9ydW5uZXIiKTsKCm1vZHVsZS5leHBvcnRzID0geyBob21lLCBjYXRlZ29yeSwgZGV0YWlsLCBzZWFyY2gsIHBsYXkgfTsKcnVubmVyLnJ1bihtb2R1bGUuZXhwb3J0cyk7Cgpjb25zdCBTSVRFX0FQSSA9ICJodHRwczovL3d3dy5ob25nbml1enkyLmNvbS9hcGkucGhwL3Byb3ZpZGUvdm9kLyI7Cgphc3luYyBmdW5jdGlvbiByZXF1ZXN0QXBpKHBhcmFtcyA9IHt9KSB7CiAgY29uc3QgcXMgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKAogICAgT2JqZWN0LmZyb21FbnRyaWVzKE9iamVjdC5lbnRyaWVzKHBhcmFtcykuZmlsdGVyKChbLCB2XSkgPT4gdiAhPSBudWxsICYmIHYgIT09ICIiKSkKICApLnRvU3RyaW5nKCk7CiAgY29uc3Qgc2VwID0gU0lURV9BUEkuaW5jbHVkZXMoIj8iKSA/ICImIiA6ICI/IjsKICBjb25zdCB1cmwgPSBgJHtTSVRFX0FQSX0ke3NlcH0ke3FzfWA7CiAgY29uc3QgcmVzID0gYXdhaXQgT21uaUJveC5yZXF1ZXN0KHVybCwgewogICAgbWV0aG9kOiAiR0VUIiwKICAgIGhlYWRlcnM6IHsgIlVzZXItQWdlbnQiOiAiTW96aWxsYS81LjAiIH0sCiAgfSk7CiAgaWYgKHJlcy5zdGF0dXNDb2RlICE9PSAyMDApIHRocm93IG5ldyBFcnJvcihgSFRUUCAke3Jlcy5zdGF0dXNDb2RlfWApOwogIHJldHVybiBKU09OLnBhcnNlKHJlcy5ib2R5IHx8ICJ7fSIpOwp9CgpmdW5jdGlvbiBtYXBWb2QodikgewogIHJldHVybiB7CiAgICB2b2RfaWQ6IFN0cmluZyh2LnZvZF9pZCB8fCAiIiksCiAgICB2b2RfbmFtZTogU3RyaW5nKHYudm9kX25hbWUgfHwgIiIpLAogICAgdm9kX3BpYzogU3RyaW5nKHYudm9kX3BpYyB8fCAiIiksCiAgICB0eXBlX2lkOiBTdHJpbmcodi50eXBlX2lkIHx8ICIiKSwKICAgIHR5cGVfbmFtZTogU3RyaW5nKHYudHlwZV9uYW1lIHx8ICIiKSwKICAgIHZvZF9yZW1hcmtzOiBTdHJpbmcodi52b2RfcmVtYXJrcyB8fCAiIiksCiAgICB2b2RfeWVhcjogU3RyaW5nKHYudm9kX3llYXIgfHwgIiIpLAogIH07Cn0KCmFzeW5jIGZ1bmN0aW9uIGhvbWUocGFyYW1zLCBjb250ZXh0KSB7CiAgdHJ5IHsKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXF1ZXN0QXBpKHsgYWM6ICJsaXN0IiwgcGc6ICIxIiB9KTsKICAgIHJldHVybiB7CiAgICAgIGNsYXNzOiAoZGF0YS5jbGFzcyB8fCBbXSkubWFwKGMgPT4gKHsgdHlwZV9pZDogU3RyaW5nKGMudHlwZV9pZCksIHR5cGVfbmFtZTogU3RyaW5nKGMudHlwZV9uYW1lKSB9KSksCiAgICAgIGxpc3Q6IChkYXRhLmxpc3QgfHwgW10pLm1hcChtYXBWb2QpLAogICAgfTsKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4geyBjbGFzczogW10sIGxpc3Q6IFtdIH07CiAgfQp9Cgphc3luYyBmdW5jdGlvbiBjYXRlZ29yeShwYXJhbXMsIGNvbnRleHQpIHsKICB0cnkgewogICAgY29uc3QgeyBjYXRlZ29yeUlkID0gIjEiLCBwYWdlID0gMSB9ID0gcGFyYW1zOwogICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlcXVlc3RBcGkoeyBhYzogInZpZGVvbGlzdCIsIHQ6IGNhdGVnb3J5SWQsIHBnOiBTdHJpbmcocGFnZSkgfSk7CiAgICByZXR1cm4gewogICAgICBwYWdlOiBOdW1iZXIoZGF0YS5wYWdlKSB8fCBwYWdlLAogICAgICBwYWdlY291bnQ6IE51bWJlcihkYXRhLnBhZ2Vjb3VudCkgfHwgMCwKICAgICAgdG90YWw6IE51bWJlcihkYXRhLnRvdGFsKSB8fCAwLAogICAgICBsaXN0OiAoZGF0YS5saXN0IHx8IFtdKS5tYXAobWFwVm9kKSwKICAgIH07CiAgfSBjYXRjaCAoZSkgewogICAgcmV0dXJuIHsgcGFnZTogMSwgcGFnZWNvdW50OiAwLCB0b3RhbDogMCwgbGlzdDogW10gfTsKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIGRldGFpbChwYXJhbXMsIGNvbnRleHQpIHsKICB0cnkgewogICAgY29uc3QgeyB2aWRlb0lkIH0gPSBwYXJhbXM7CiAgICBpZiAoIXZpZGVvSWQpIHJldHVybiB7IGxpc3Q6IFtdIH07CiAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVxdWVzdEFwaSh7IGFjOiAiZGV0YWlsIiwgaWRzOiB2aWRlb0lkIH0pOwogICAgY29uc3QgbGlzdCA9IChkYXRhLmxpc3QgfHwgW10pLm1hcCh2ID0+IHsKICAgICAgY29uc3QgZXBpc29kZXMgPSBbXTsKICAgICAgaWYgKHYudm9kX3BsYXlfdXJsKSB7CiAgICAgICAgdi52b2RfcGxheV91cmwuc3BsaXQoIiMiKS5mb3JFYWNoKChzZWcsIGkpID0+IHsKICAgICAgICAgIGNvbnN0IHBhcnRzID0gc2VnLnRyaW0oKS5zcGxpdCgiJCIpOwogICAgICAgICAgZXBpc29kZXMucHVzaChwYXJ0cy5sZW5ndGggPj0gMgogICAgICAgICAgICA/IHsgbmFtZTogcGFydHNbMF0udHJpbSgpLCBwbGF5SWQ6IHBhcnRzLnNsaWNlKDEpLmpvaW4oIiQiKS50cmltKCkgfQogICAgICAgICAgICA6IHsgbmFtZTogYOesrCR7aSArIDF96ZuGYCwgcGxheUlkOiBwYXJ0c1swXS50cmltKCkgfSk7CiAgICAgICAgfSk7CiAgICAgIH0KICAgICAgcmV0dXJuIHsKICAgICAgICAuLi5tYXBWb2QodiksCiAgICAgICAgdm9kX2NvbnRlbnQ6IFN0cmluZyh2LnZvZF9jb250ZW50IHx8ICIiKSwKICAgICAgICB2b2RfYWN0b3I6IFN0cmluZyh2LnZvZF9hY3RvciB8fCAiIiksCiAgICAgICAgdm9kX2RpcmVjdG9yOiBTdHJpbmcodi52b2RfZGlyZWN0b3IgfHwgIiIpLAogICAgICAgIHZvZF9wbGF5X3NvdXJjZXM6IGVwaXNvZGVzLmxlbmd0aCA+IDAgPyBbeyBuYW1lOiAi57q/6LevMSIsIGVwaXNvZGVzIH1dIDogdW5kZWZpbmVkLAogICAgICB9OwogICAgfSk7CiAgICByZXR1cm4geyBsaXN0IH07CiAgfSBjYXRjaCAoZSkgewogICAgcmV0dXJuIHsgbGlzdDogW10gfTsKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIHNlYXJjaChwYXJhbXMsIGNvbnRleHQpIHsKICB0cnkgewogICAgY29uc3Qga2V5d29yZCA9IHBhcmFtcy5rZXl3b3JkIHx8IHBhcmFtcy53ZCB8fCAiIjsKICAgIGNvbnN0IHBhZ2UgPSBwYXJhbXMucGFnZSB8fCAxOwogICAgaWYgKCFrZXl3b3JkKSByZXR1cm4geyBwYWdlOiAxLCBwYWdlY291bnQ6IDAsIHRvdGFsOiAwLCBsaXN0OiBbXSB9OwogICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlcXVlc3RBcGkoeyBhYzogImxpc3QiLCB3ZDoga2V5d29yZCwgcGc6IFN0cmluZyhwYWdlKSB9KTsKICAgIHJldHVybiB7CiAgICAgIHBhZ2U6IE51bWJlcihkYXRhLnBhZ2UpIHx8IHBhZ2UsCiAgICAgIHBhZ2Vjb3VudDogTnVtYmVyKGRhdGEucGFnZWNvdW50KSB8fCAwLAogICAgICB0b3RhbDogTnVtYmVyKGRhdGEudG90YWwpIHx8IDAsCiAgICAgIGxpc3Q6IChkYXRhLmxpc3QgfHwgW10pLm1hcChtYXBWb2QpLAogICAgfTsKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4geyBwYWdlOiAxLCBwYWdlY291bnQ6IDAsIHRvdGFsOiAwLCBsaXN0OiBbXSB9OwogIH0KfQoKYXN5bmMgZnVuY3Rpb24gcGxheShwYXJhbXMsIGNvbnRleHQpIHsKICB0cnkgewogICAgY29uc3QgeyBwbGF5SWQsIGZsYWcgPSAicGxheSIgfSA9IHBhcmFtczsKICAgIGlmICghcGxheUlkKSB0aHJvdyBuZXcgRXJyb3IoInBsYXlJZCDkuLrnqboiKTsKICAgIGNvbnN0IHBhcnNlID0gL1wuKG0zdTh8bXA0KShcP3wkKS9pLnRlc3QocGxheUlkKSA/IDAgOiAxOwogICAgcmV0dXJuIHsgdXJsczogW3sgbmFtZTogIuaSreaUviIsIHVybDogcGxheUlkIH1dLCBmbGFnLCBoZWFkZXI6IHt9LCBwYXJzZSB9OwogIH0gY2F0Y2ggKGUpIHsKICAgIHJldHVybiB7IHVybDogIiIsIGZsYWc6IHBhcmFtcy5mbGFnIHx8ICJwbGF5IiwgaGVhZGVyOiB7fSB9OwogIH0KfQo=
+// @name 红牛资源(切)
+// @version 1.0.0
+// @downloadURL https://raw.githubusercontent.com/wenjie654654954-afk/omnibox-sites/main/spiders/cms-26-红牛资源切.js
+// @dependencies axios
+
+const OmniBox = require("omnibox_sdk");
+const runner = require("spider_runner");
+
+module.exports = { home, category, detail, search, play };
+runner.run(module.exports);
+
+const SITE_API = "https://www.hongniuzy2.com/api.php/provide/vod/";
+
+async function requestApi(params = {}) {
+  const qs = new URLSearchParams(
+    Object.fromEntries(Object.entries(params).filter(([, v]) => v != null && v !== ""))
+  ).toString();
+  const sep = SITE_API.includes("?") ? "&" : "?";
+  const url = `${SITE_API}${sep}${qs}`;
+  const res = await OmniBox.request(url, {
+    method: "GET",
+    headers: { "User-Agent": "Mozilla/5.0" },
+  });
+  if (res.statusCode !== 200) throw new Error(`HTTP ${res.statusCode}`);
+  return JSON.parse(res.body || "{}");
+}
+
+function mapVod(v) {
+  return {
+    vod_id: String(v.vod_id || ""),
+    vod_name: String(v.vod_name || ""),
+    vod_pic: String(v.vod_pic || ""),
+    type_id: String(v.type_id || ""),
+    type_name: String(v.type_name || ""),
+    vod_remarks: String(v.vod_remarks || ""),
+    vod_year: String(v.vod_year || ""),
+  };
+}
+
+async function home(params, context) {
+  try {
+    const data = await requestApi({ ac: "list", pg: "1" });
+    return {
+      class: (data.class || []).map(c => ({ type_id: String(c.type_id), type_name: String(c.type_name) })),
+      list: (data.list || []).map(mapVod),
+    };
+  } catch (e) {
+    return { class: [], list: [] };
+  }
+}
+
+async function category(params, context) {
+  try {
+    const { categoryId = "1", page = 1 } = params;
+    const data = await requestApi({ ac: "videolist", t: categoryId, pg: String(page) });
+    return {
+      page: Number(data.page) || page,
+      pagecount: Number(data.pagecount) || 0,
+      total: Number(data.total) || 0,
+      list: (data.list || []).map(mapVod),
+    };
+  } catch (e) {
+    return { page: 1, pagecount: 0, total: 0, list: [] };
+  }
+}
+
+async function detail(params, context) {
+  try {
+    const { videoId } = params;
+    if (!videoId) return { list: [] };
+    const data = await requestApi({ ac: "detail", ids: videoId });
+    const list = (data.list || []).map(v => {
+      const episodes = [];
+      if (v.vod_play_url) {
+        v.vod_play_url.split("#").forEach((seg, i) => {
+          const parts = seg.trim().split("$");
+          episodes.push(parts.length >= 2
+            ? { name: parts[0].trim(), playId: parts.slice(1).join("$").trim() }
+            : { name: `第${i + 1}集`, playId: parts[0].trim() });
+        });
+      }
+      return {
+        ...mapVod(v),
+        vod_content: String(v.vod_content || ""),
+        vod_actor: String(v.vod_actor || ""),
+        vod_director: String(v.vod_director || ""),
+        vod_play_sources: episodes.length > 0 ? [{ name: "线路1", episodes }] : undefined,
+      };
+    });
+    return { list };
+  } catch (e) {
+    return { list: [] };
+  }
+}
+
+async function search(params, context) {
+  try {
+    const keyword = params.keyword || params.wd || "";
+    const page = params.page || 1;
+    if (!keyword) return { page: 1, pagecount: 0, total: 0, list: [] };
+    const data = await requestApi({ ac: "list", wd: keyword, pg: String(page) });
+    return {
+      page: Number(data.page) || page,
+      pagecount: Number(data.pagecount) || 0,
+      total: Number(data.total) || 0,
+      list: (data.list || []).map(mapVod),
+    };
+  } catch (e) {
+    return { page: 1, pagecount: 0, total: 0, list: [] };
+  }
+}
+
+async function play(params, context) {
+  try {
+    const { playId, flag = "play" } = params;
+    if (!playId) throw new Error("playId 为空");
+    const parse = /\.(m3u8|mp4)(\?|$)/i.test(playId) ? 0 : 1;
+    return { urls: [{ name: "播放", url: playId }], flag, header: {}, parse };
+  } catch (e) {
+    return { url: "", flag: params.flag || "play", header: {} };
+  }
+}
